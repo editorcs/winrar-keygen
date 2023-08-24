@@ -15,14 +15,14 @@ jobs:
     - uses: actions/checkout@v3.5.0
     
     - name: Get key text1
-      id: Mss
+      id: text1
       uses: notiz-dev/github-action-json-property@release
       with: 
         path: 'keygen/info.json'
         prop_path: 'text1'
 
     - name: Get key text2
-      id: Mss
+      id: text2
       uses: notiz-dev/github-action-json-property@release
       with: 
         path: 'keygen/info.json'
